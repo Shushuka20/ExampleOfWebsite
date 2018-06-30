@@ -1,0 +1,74 @@
+@media(max-width: 1280px) {
+  .establish .slider {
+    max-width: 950px;
+  }
+}
+
+
+@media(max-width: 991px) {
+  .main_menu{
+    display: none;
+  }
+  .sub_menu{
+    display: none;
+  }
+  .burgerWrapper {
+    display: block;
+  }
+  header .container {
+    padding-bottom: 30px;
+  }
+  .establish .slider {
+    max-width: 650px;
+  }
+  footer .bottom_footer p.bottom_footer_left, footer .bottom_footer p.bottom_footer_right  {
+      text-align: center;
+  }
+  .webtracking .search_icon {
+    display: none;
+  }
+  .webtracking .search_title {
+      text-align: center;
+      float: none;
+  }
+  .our_team .our_team_wrapper {
+    background-image: none;;
+  }
+}
+
+
+
+
+@media(max-width: 767px) {
+  .establish .slider {
+    max-width: 250px;
+  }
+  .establish .slider {
+    margin-top: 30px;
+  }
+  footer .bottom_footer p.bottom_footer_left, footer .bottom_footer p.bottom_footer_right  {
+    text-align: center;
+  }
+
+  .webtracking .search_title {
+      text-align: center;
+      float: none;
+  }
+}
+
+
+@media(max-width: 550px) {
+  .testimonials .section_title {
+    padding-left: 0px;
+    background-image: none;
+  }
+  .testimonials .section_title h1 {
+    font-size: 32px;
+  }
+  .testimonials .section_title h3 {
+    font-size: 18px;
+  }
+  .request_wrapper {
+    padding: 25px 15px 17px 15px;
+  }
+}
